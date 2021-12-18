@@ -55,13 +55,18 @@
         <section class="order-background">
             <div class="container">
                 <h1 class="order-background-title">эффективные решения для вашего бизнеса</h1>
+                <div>
                 <button data-modal-open class="button" type="button">Заказать услугу</button>
+                </div>
+                <!--Модельное-окно-->
                 <div class="is-hidden" data-modal>
-                    <div>
-                        <p>
-
-                        </p>
-                        <button data-modal-close>Close</button>
+                    <div class="modal">
+                        
+                        <button class="modal-close" data-modal-close>
+                            <svg class="icon-modal" width="11" height="11">
+                                <use class="icon-modal-close" href="icon/sprite.svg#icon--1"></use>
+                            </svg>
+                        </button>
 
                     </div>
                 </div>
@@ -116,9 +121,31 @@
             <div class="container">
             <h2 class="activity-title">Чем мы занимаемся</h2>
             <ul class="activity-list">
-                <li class="activity-item"><img class="activity-img" src="./img-tech/ноут.jpg" alt="ноут" width="370" height="294"></li>
-                <li class="activity-item"><img class="activity-img" src="./img-tech/телефон.jpg" alt="телефон" width="370" height="294"></li>
-                <li class="activity-item"><img class="activity-img" src="./img-tech/планшет.jpg" alt="планшет" width="370" height="294"></li> 
+                <li class="activity-item">
+                    <div class="activity-foto">
+                    <img class="activity-img" src="./img-tech/ноут.jpg" alt="ноут" width="370" height="294">
+                        <div class="activity-text">
+                            <p class="activity-text-foto">Десктопные приложения</p>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="activity-item">
+                    <div class="activity-foto">
+                    <img class="activity-img" src="./img-tech/телефон.jpg" alt="телефон" width="370" height="294">
+                    <div class="activity-text">
+                        <p class="activity-text-foto">Мобильные приложения</p>
+                    </div>
+                    </div>
+                </li>
+                <li class="activity-item">
+                    <div class="activity-foto">
+                    <img class="activity-img" src="./img-tech/планшет.jpg" alt="планшет" width="370" height="294">
+                    <div class="activity-text">
+                        <p class="activity-text-foto">Дизайнерские решения</p>
+                    </div>
+                    </div>
+                    </li>
             </ul>
         </div>  
         </section>

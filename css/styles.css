@@ -759,11 +759,11 @@
         line-height: 1.55;
         color: var(--header-color);
         padding: 63px 24px;
-        
+
       }
       .portfolio-link:hover .text-img-portfolio{
         transform: translate(0, 0);
         opacity: 1;
       }
-
+       
       
